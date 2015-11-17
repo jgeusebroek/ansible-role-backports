@@ -22,7 +22,7 @@ None
 ## Example Variables
 
     # You can configure your prefered backports mirror
-    backports_mirror_url: 'http://ftp.nl.debian.org/debian-backports'
+    backports_mirror_url: 'http://ftp.nl.debian.org/debian'
 
 ## License
 
