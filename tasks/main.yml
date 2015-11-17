@@ -1,0 +1,6 @@
+---
+- name: Add backports repository
+  apt_repository:
+    repo: 'deb {{ backports_mirror_url }} {{ ansible_distribution_release }}-backports main'
+    state: present
+    update_cache: yes
