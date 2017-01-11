@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/jgeusebroek/ansible-role-backports.svg?branch=master)](https://travis-ci.org/jgeusebroek/ansible-role-backports)
+[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-jgeusebroek.backports-blue.svg)](https://galaxy.ansible.com/jgeusebroek/backports)
+
 # Ansible role: backports
 
 An Ansible Role that adds the backports repository to Debian hosts
@@ -30,4 +33,4 @@ MIT / BSD
 
 ## Author Information
 
-This role was created in 2015 by [Jeroen Geusebroek](http://jeroengeusebroek.nl/).
+2015 - 2017 by [Jeroen Geusebroek](http://jeroengeusebroek.nl/).

@@ -1,0 +1,15 @@
+---
+- hosts: all
+
+  vars:
+    backports_mirror_url: 'http://ftp.debian.org/debian'
+
+  roles:
+    - role_under_test
+
+  tasks:
+    - name: Install git from backports
+      apt:
+        name: git
+        state: present
+        default_release: '{{ ansible_distribution_release }}-backports'
