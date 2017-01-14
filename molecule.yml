@@ -10,13 +10,11 @@ docker:
     - name: debian7
       image: jgeusebroek/debian7-ansible
       image_version: latest
-      privileged: true
       ansible_groups:
         - debian
     - name: debian8
       image: geerlingguy/docker-debian8-ansible
       image_version: latest
-      privileged: true
       ansible_groups:
         - debian
 verifier:
