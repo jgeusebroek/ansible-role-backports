@@ -17,5 +17,10 @@ docker:
       image_version: latest
       ansible_groups:
         - debian
+    - name: debian9
+      image: geerlingguy/docker-debian9-ansible
+      image_version: latest
+      ansible_groups:
+        - debian
 verifier:
   name: testinfra
