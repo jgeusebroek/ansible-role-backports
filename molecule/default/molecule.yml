@@ -10,12 +10,12 @@ lint:
     config-file: ../../../resources/.yamllint
 platforms:
     - name: debian8
-      image: geerlingguy/docker-debian8-ansible
+      image: jgeusebroek/debian8-molecule
       image_version: latest
       ansible_groups:
         - debian
     - name: debian9
-      image: geerlingguy/docker-debian9-ansible
+      image: jgeusebroek/debian9-molecule
       image_version: latest
       ansible_groups:
         - debian
