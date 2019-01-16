@@ -1,5 +1,5 @@
 ---
-dependencies: []
+dependencies: [ ]
 
 galaxy_info:
   author: Jeroen Geusebroek
@@ -7,10 +7,10 @@ galaxy_info:
   license: "license (BSD, MIT)"
   min_ansible_version: 2.5
   platforms:
-  - name: Debian
-    versions:
-    - jessie
-    - stretch
-  categories:
+    - name: Debian
+      versions:
+      - jessie
+      - stretch
+  galaxy_tags:
     - system
     - packages

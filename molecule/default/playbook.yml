@@ -8,8 +8,12 @@
     - role: jgeusebroek.backports
 
   tasks:
-    - name: Install git from backports
+    - name: Install Git from backports
       apt:
         name: git
         state: present
         default_release: '{{ ansible_distribution_release }}-backports'
+      register: task_result
+      until: task_result is success
+      retries: 2
+      delay: 5
