@@ -5,7 +5,6 @@ services: docker
 
 env:
   matrix:
-    - MOLECULE_DISTRO: debian8
     - MOLECULE_DISTRO: debian9
 
 # Cache Ansible and Molecule to speed things up
